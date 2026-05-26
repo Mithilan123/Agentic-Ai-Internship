@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEXUS AI — Your Personalized AI News Universe</title>
+  <meta name="description" content="Cinematic AI-powered news dashboard delivering daily tech, AI, and trending updates with smart summaries." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;800&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-wrap"></div>
+  <div class="grid-bg"></div>
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+  <div class="particles">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">NEXUS.AI</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#trending">Trending</a></li>
+          <li><a href="#tools">AI Tools</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#newsletter" class="nav-cta">Launch App</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container">
+      <span class="eyebrow">◆ AI News Intelligence v4.0</span>
+      <h1>Your Personalized <br /><span class="grad">AI News Universe</span></h1>
+      <p>
+        A cinematic, real-time newsroom curated by neural networks — delivering
+        <span class="rotator">
+          <span>tomorrow's AI breakthroughs.</span>
+          <span>smart 60-second briefings.</span>
+          <span>trending tech intelligence.</span>
+        </span>
+      </p>
+      <div class="cta-row">
+        <a href="#news" class="btn btn-primary">Explore News →</a>
+        <a href="#newsletter" class="btn btn-ghost">Get Started</a>
+      </div>
+
+      <div class="hero-dash">
+        <div class="dash-grid">
+          <div class="dash-tile">
+            <h4>Live Signal</h4>
+            <div class="big">AI Pulse 98.4%</div>
+            <div class="spark"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="dash-tile">
+            <h4>Today's Stories</h4>
+            <div class="big">2,847</div>
+            <p style="color:var(--muted);font-size:12px;margin-top:8px;">+12.3% vs yesterday</p>
+          </div>
+          <div class="dash-tile">
+            <h4>Trending Topic</h4>
+            <div class="big" style="font-size:20px;">Quantum LLMs</div>
+            <p style="color:var(--muted);font-size:12px;margin-top:8px;">3.1M mentions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section id="news">
+    <div class="container">
+      <span class="eyebrow">◆ Trending Now</span>
+      <h2 class="section-title">Today's AI Headlines</h2>
+      <p class="section-sub">Hand-picked by our recommendation engine, summarized in seconds, ranked by relevance to you.</p>
+
+      <div class="chip-row">
+        <span class="chip active">All</span>
+        <span class="chip">AI</span>
+        <span class="chip">Robotics</span>
+        <span class="chip">Space</span>
+        <span class="chip">Security</span>
+        <span class="chip">ML</span>
+      </div>
+
+      <div class="news-grid">
+        <article class="glass news-card featured">
+          <span class="tag purple live">Live · Featured</span>
+          <div class="news-thumb"></div>
+          <h3>OpenAI Unveils GPT-6: A Leap Toward Reasoning Beyond Human Benchmarks</h3>
+          <p>The new model introduces multimodal reasoning, persistent memory, and adaptive personalization — redefining what we expect from conversational AI.</p>
+          <div class="meta"><span>AI Research</span><span>8 min read</span><span>2h ago</span></div>
+        </article>
+
+        <article class="glass news-card">
+          <span class="tag">Robotics</span>
+          <div class="news-thumb alt"></div>
+          <h3>Humanoid Robots Enter Mass Production Phase</h3>
+          <div class="meta"><span>Robotics</span><span>4 min</span></div>
+        </article>
+
+        <article class="glass news-card">
+          <span class="tag pink">Space Tech</span>
+          <div class="news-thumb alt2"></div>
+          <h3>AI Pilots Successfully Land Autonomous Mars Rover</h3>
+          <div class="meta"><span>Space</span><span>6 min</span></div>
+        </article>
+
+        <article class="glass news-card">
+          <span class="tag">Cybersecurity</span>
+          <div class="news-thumb alt2"></div>
+          <h3>Neural Firewalls Detect Zero-Day Threats in Real Time</h3>
+          <div class="meta"><span>Security</span><span>5 min</span></div>
+        </article>
+
+        <article class="glass news-card">
+          <span class="tag purple">Machine Learning</span>
+          <div class="news-thumb alt"></div>
+          <h3>Synthetic Data Outperforms Real Datasets in Vision Models</h3>
+          <div class="meta"><span>ML</span><span>7 min</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="trending">
+    <div class="container">
+      <span class="eyebrow">◆ Discover</span>
+      <h2 class="section-title">AI Universe Categories</h2>
+      <p class="section-sub">Dive into specialized streams curated by domain experts and reinforced by our recommendation engine.</p>
+
+      <div class="cat-grid">
+        <div class="glass cat-card"><div class="cat-icon">🧠</div><h3>Artificial Intelligence</h3><p>Frontier models, agents, alignment, and applied AI.</p><span class="count">1.2K articles</span></div>
+        <div class="glass cat-card"><div class="cat-icon">🤖</div><h3>Robotics</h3><p>Humanoids, drones, autonomous systems, and embodied AI.</p><span class="count">840 articles</span></div>
+        <div class="glass cat-card"><div class="cat-icon">🚀</div><h3>Space Tech</h3><p>Launches, exploration, and orbital infrastructure.</p><span class="count">612 articles</span></div>
+        <div class="glass cat-card"><div class="cat-icon">🛡️</div><h3>Cybersecurity</h3><p>Threats, defenses, and AI-powered protection.</p><span class="count">950 articles</span></div>
+        <div class="glass cat-card"><div class="cat-icon">📊</div><h3>Machine Learning</h3><p>Algorithms, research papers, and model breakthroughs.</p><span class="count">1.5K articles</span></div>
+        <div class="glass cat-card"><div class="cat-icon">💾</div><h3>Data Science</h3><p>Pipelines, analytics, and intelligence at scale.</p><span class="count">780 articles</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="tools">
+    <div class="container center">
+      <span class="eyebrow">◆ Intelligence Layer</span>
+      <h2 class="section-title">Smart Features, Built for You</h2>
+      <p class="section-sub">A suite of AI capabilities working silently behind the scenes — so your news feels effortless.</p>
+
+      <div class="feature-grid">
+        <div class="glass feature-card"><div class="cat-icon">✨</div><h3>AI Recommendations</h3><p>Personalized stories ranked by your reading DNA.</p></div>
+        <div class="glass feature-card"><div class="cat-icon">⚡</div><h3>Real-Time Updates</h3><p>Breaking news streamed the moment it happens.</p></div>
+        <div class="glass feature-card"><div class="cat-icon">📰</div><h3>Personalized Feed</h3><p>Your unique algorithmic newsroom — refined daily.</p></div>
+        <div class="glass feature-card"><div class="cat-icon">🧬</div><h3>Smart Summaries</h3><p>60-second briefings from 60-minute articles.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section>
+    <div class="container center">
+      <span class="eyebrow">◆ Live Metrics</span>
+      <h2 class="section-title">Powering a Global Newsroom</h2>
+      <p class="section-sub">Built on a neural backbone processing millions of signals every second.</p>
+
+      <div class="stats">
+        <div class="glass stat"><span class="num">2.4M+</span><div class="label">Daily Readers</div><div class="bar"><i></i></div></div>
+        <div class="glass stat"><span class="num">18K</span><div class="label">AI Articles / Day</div><div class="bar"><i></i></div></div>
+        <div class="glass stat"><span class="num">320+</span><div class="label">Trending Topics</div><div class="bar"><i></i></div></div>
+        <div class="glass stat"><span class="num">99.9%</span><div class="label">Uptime</div><div class="bar"><i></i></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section>
+    <div class="container center">
+      <span class="eyebrow">◆ Voices</span>
+      <h2 class="section-title">Loved by the Future-Curious</h2>
+      <p class="section-sub">From engineers to executives — Nexus is the morning ritual of the AI generation.</p>
+
+      <div class="test-grid">
+        <div class="glass test-card">
+          <p>"Nexus replaced five newsletters. The summaries alone save me an hour each morning."</p>
+          <div class="test-user"><div class="avatar">A</div><div><h4>Ava Reyes</h4><span>ML Engineer, Google</span></div></div>
+        </div>
+        <div class="glass test-card">
+          <p>"It's like having a research assistant that never sleeps. Beautiful, fast, indispensable."</p>
+          <div class="test-user"><div class="avatar">K</div><div><h4>Kenji Watanabe</h4><span>Founder, Quantum Labs</span></div></div>
+        </div>
+        <div class="glass test-card">
+          <p>"The recommendation engine actually understands what I care about. Magic."</p>
+          <div class="test-user"><div class="avatar">S</div><div><h4>Sofia Lindqvist</h4><span>CTO, NovaSec</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section>
+    <div class="container center">
+      <span class="eyebrow">◆ Plans</span>
+      <h2 class="section-title">Choose Your Frequency</h2>
+      <p class="section-sub">From casual reader to enterprise intelligence — built for every scale of curiosity.</p>
+
+      <div class="price-grid">
+        <div class="glass price-card">
+          <h3>Free</h3>
+          <div class="price">$0<small> /mo</small></div>
+          <ul><li>Daily AI digest</li><li>3 categories</li><li>Basic summaries</li><li>Web access</li></ul>
+          <a href="#" class="btn btn-ghost" style="justify-content:center;">Start Free</a>
+        </div>
+
+        <div class="glass price-card pro">
+          <span class="badge">MOST POPULAR</span>
+          <h3>Pro</h3>
+          <div class="price">$19<small> /mo</small></div>
+          <ul><li>Unlimited personalized feed</li><li>All categories + topics</li><li>AI summaries & briefings</li><li>Real-time alerts</li><li>Mobile + desktop apps</li></ul>
+          <a href="#" class="btn btn-primary" style="justify-content:center;">Upgrade to Pro</a>
+        </div>
+
+        <div class="glass price-card">
+          <h3>Enterprise</h3>
+          <div class="price">Custom</div>
+          <ul><li>Team accounts & SSO</li><li>API access</li><li>Custom intelligence feeds</li><li>Dedicated support</li></ul>
+          <a href="#" class="btn btn-ghost" style="justify-content:center;">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section id="newsletter">
+    <div class="container">
+      <div class="glass newsletter">
+        <span class="eyebrow">◆ Signal Boost</span>
+        <h2>Join the AI News Frontier</h2>
+        <p>Get the most important AI story of the day, delivered before your first coffee.</p>
+        <form class="subscribe" onsubmit="event.preventDefault()">
+          <input type="email" placeholder="you@future.ai" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <div class="microcopy"><span>Instant</span><span>Free forever</span><span>No spam</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container">
+      <div class="foot-grid">
+        <div class="foot-col">
+          <div class="logo">NEXUS.AI</div>
+          <p>The cinematic AI newsroom — built for the future-curious.</p>
+          <div class="socials">
+            <a href="#" aria-label="Twitter">X</a>
+            <a href="#" aria-label="GitHub">GH</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+        <div class="foot-col"><h5>Platform</h5><a href="#news">News</a><a href="#trending">Trending</a><a href="#tools">AI Tools</a><a href="#">API</a></div>
+        <div class="foot-col"><h5>Company</h5><a href="#">About</a><a href="#">Careers</a><a href="#">Press</a><a href="#">Blog</a></div>
+        <div class="foot-col"><h5>Resources</h5><a href="#">Docs</a><a href="#">Help Center</a><a href="#">Privacy</a><a href="#">Terms</a></div>
+      </div>
+      <div class="copy">© 2026 Nexus.AI — All rights reserved. Built with neural intent.</div>
+    </div>
+  </footer>
+</body>
+</html>
